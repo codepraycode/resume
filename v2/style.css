@@ -1,0 +1,192 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+
+    font-family: 'Anuphan', sans-serif;
+    font-weight: 400;
+}
+
+
+h1,h2,h3, h4, h5, h6,p{
+    margin-block: 0;
+    line-height: 1.4;
+}
+
+span {
+    line-height: 1.6;
+}
+
+/* ul {
+    padding: 0;
+    list-style: none;
+} */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Colors */
+.grey {
+    color: #e7e6e9;
+}
+.bg-grey {
+    background-color: #e7e6e9;
+}
+
+.dark {
+    color: #2e2d30;
+}
+.bg-dark {
+    background-color: #2e2d30;
+    color: #2e2d30;
+}
+
+.white {
+    color: #ffffff;
+}
+.bg-white {
+    background-color: #ffffff;
+}
+
+.light-grey {
+    color: #b2b1b4;
+}
+.bg-light-grey {
+    background-color: #b2b1b4;
+}
+
+
+/* Font sizes */
+.fs-100 {
+    font-size: 14px;
+}
+.fs-200 {
+    font-size: 18px;
+}
+.fs-300 {
+    font-size: 30px;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-700 {
+    font-weight: 700;
+}
+
+
+/* Texts */
+.capitalize{
+    text-transform: capitalize;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+/* Displays */
+.d-block {
+    display: block;
+}
+.d-block.ch-block > * {
+    display: block;
+}
+
+.l-h-1{
+    line-height: 1.1;
+}
+
+.flex {
+    display: flex;
+}
+.flex.align-center {
+    align-items: center;
+}
+.flex.justify-center {
+    justify-content: center;
+}
+.flex.justify-between {
+    justify-content: space-between;
+}
+
+.flex.gap-3 {
+    gap: 30px;
+}
+.flex.gap-4 {
+    gap: 40px;
+}
+.flex.gap-5 {
+    gap: 50px;
+}
+.flex.gap-8 {
+    gap: 80px;
+}
+
+/* Spacing */
+.my-1{
+    margin-block: 18px;
+}
+.my-1--0{
+    margin-block: 10px;
+}
+
+.my-2{
+    margin-block: 20px;
+}
+.my-3{
+    margin-block: 30px;
+}
+.my-4{
+    margin-block: 40px;
+}
+.mt-2{
+    margin-top: 20px;
+}
+.py-1{
+    padding-block: 16px;
+}
+.py-2{
+    padding-block: 20px;
+}
+.pt-1{
+    padding-top: 10px;
+}
+.pt-2{
+    padding-top: 20px;
+}
+.pt-3{
+    padding-top: 30px;
+}
+.pb-2{
+    padding-bottom: 20px;
+}
+.pb-3{
+    padding-bottom: 30px;
+}
+
+main {
+    width: 990px;
+    max-width: 90%;
+
+    margin-inline: auto;
+}
+
+header {
+    text-align: center;
+    padding-block: 50px;
+}
+
+article h1 {
+    border-bottom: 3px solid #b2b1b4;
+    margin-block: 30px;
+}
